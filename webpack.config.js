@@ -3,7 +3,7 @@ module.exports = {
   // mode: "development",
   entry: "./src/index.js",
   output: {
-    path: `${__dirname}/public`,
+    path: `${__dirname}/docs`,
     filename: "main.js",
   },
   module: {
@@ -15,7 +15,7 @@ module.exports = {
     ],
   },
   devServer: {
-    contentBase: "public",
+    contentBase: "docs",
     open: true,
   },
 };
