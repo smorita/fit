@@ -15,7 +15,13 @@ module.exports = {
     ],
   },
   devServer: {
-    contentBase: "docs",
+    static: {
+      directory: "docs",
+    },
     open: true,
+  },
+  performance: {
+    maxAssetSize: 1000000,
+    maxEntrypointSize: 1000000,
   },
 };
