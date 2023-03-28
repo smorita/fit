@@ -12,10 +12,10 @@
   "license": "MIT",
   "devDependencies": {
     "css-loader": "^6.7.3",
-    "style-loader": "^3.3.1",
-    "webpack": "^5.75.0",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.76.3",
     "webpack-cli": "^5.0.1",
-    "webpack-dev-server": "^4.11.1"
+    "webpack-dev-server": "^4.13.1"
   },
   "dependencies": {
     "bootstrap": "^5.2.3",
